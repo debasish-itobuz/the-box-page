@@ -1,0 +1,128 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.color-blue {
+    color: #2947A9 !important;
+}
+
+.text-400 {
+    font-weight: 400 !important;
+}
+
+.text-600 {
+    font-weight: 600 !important;
+}
+
+.text-700 {
+    font-weight: 700 !important;
+}
+
+.text-800 {
+    font-weight: 800 !important;
+}
+
+.li-item>a:hover {
+    color: rgb(255, 115, 0);
+} 
+.hero-section {
+    background-image: url(../images/hero-section/hero.png);
+    min-height: 665px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero-section-right-card {
+    background-color: #3559C7;
+    
+}
+
+.hero-section-left >h1 {
+    font-size: 3rem !important;
+
+}
+.color-neutral {
+    color:#858EAD;
+}
+
+.white-box {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 27.0741px -1.46346px rgba(17, 24, 39, 0.05);
+    border-radius: 2.92693px;
+    width: 16rem;
+}
+
+.blue-box {
+    background: #2947A9;
+    box-shadow: 0px 0px 27.0741px -1.46346px rgba(17, 24, 39, 0.05);
+    border-radius: 2.92693px;
+    width: 16rem;
+}
+
+
+
+
+@media (min-width:768px) {
+    .navbar-content{
+        width: 100%;
+        margin-left:0rem;
+    }
+    .hero-section-left >h1 {
+        font-size: 4rem !important;
+    
+    }
+}
+
+@media (min-width:1000px) {
+    .navbar-content{
+        width: 100%;
+        margin-left:20rem;
+    }
+    .about-us-section  {
+        position: relative;
+    
+    }
+    .about-section-right {
+        position: absolute;
+        top: 8rem;
+        left: 40rem;
+         max-height: 28rem;
+
+    }
+    
+}
+    
+
+@media (min-width:1440px) {
+    .navbar-content{
+        width: 100%;
+        margin-left:26rem;
+    }
+    .about-us-section  {
+        position: relative;
+    
+    }
+    .about-section-right {
+        position: absolute;
+        top: 8rem;
+        left: 55rem;
+         width: 25rem;
+         max-height: 28rem;
+
+
+    }
+}
+
+
+
+.about-section-right {
+    background-color: #2947A9;
+    opacity: 0.9;
+
+}
